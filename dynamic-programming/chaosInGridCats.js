@@ -76,8 +76,6 @@ function chaosInTheGridWithCats(grid) {
   let rows = grid.length;
   let cols = grid[0].length;
 
-
-  
   return gridVal(rows - 1, cols - 1);
 }
 
@@ -105,7 +103,6 @@ function chaosInTheGridWithCats(grid) {
 }
 
 // Test Cases:
-
 const grid1 = [
   ["", "C"],
   ["", ""],

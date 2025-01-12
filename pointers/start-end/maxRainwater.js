@@ -53,11 +53,11 @@ function maxRainwater(heights) {
     // console.log("starter:", startHeight, "end:", endHeight, end);
     // console.log(maxVol);
 
-    if (startHeight < endHeight) {
+    if (startHeight < endHeight || startHeight === endHeight) {
       start += 1;
     } else {
       end -= 1;
-    } 
+    }
   }
 
   return maxVol;
